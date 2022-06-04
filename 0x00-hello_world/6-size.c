@@ -1,9 +1,9 @@
 #include <stdio.h>
 
  /**
-  * main - Entry point
+  * main - Entry point.
   *
-  * description: main function takes no arguement and returns an integer.
+  * Description: main function print size of data to the standard output.
   *
   * Return: Always 0 (Success)
   */
