@@ -1,10 +1,11 @@
 #include <stdio.h>
 
  /**
-  * main - Entry point.
+  * main - main prints sizeof() data type
   *
-  * Description: main function print size of data to the standard output.
-  *
+  * Description: The sizeof() function can be used to get the
+  * size of a data type in bytes. This allows the system
+  * to allocate enough space to the type in memory
   * Return: Always 0 (Success)
   */
 int main(void)
