@@ -11,11 +11,8 @@
  */
 int main(void)
 {
-	char a = 'a';
-
-	do {
-		putchar(a);
-	} while (a <= 'z')
-		a++;
+	for (int x = 'a'; x <= 'z'; x++)
+		putchar(x);
+	putchar("\n");
 	return (0);
 }
