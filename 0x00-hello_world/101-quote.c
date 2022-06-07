@@ -1,15 +1,15 @@
-#include <stdio>
+#include <stdio.h>
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main- Entry point
  *
- * Description: main returns string followed by a newline
+ * Description: Main returns string followed by a newline to the standard error
  *
- * Return: Always 0 on success
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (0);
+	return (1);
 }
