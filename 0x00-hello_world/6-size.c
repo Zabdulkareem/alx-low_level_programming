@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Program prints size of various types on 
+ * Description: Program prints size of various types on
  * the computer it is compiled and run on.
  *
  * Return: Always zero (Success)
