@@ -10,10 +10,10 @@
  */
 int main(void)
 {
-	char sen[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	size_t sentence_len = sizeof(sen);
+	char s[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	size_t sentence_len = sizeof(s);
 
-	write(2, sen, sentence_len);
+	write(2, s, sentence_len);
 
 	return (1);
 }
