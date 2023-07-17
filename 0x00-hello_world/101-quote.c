@@ -11,9 +11,9 @@
 int main(void)
 {
 	char sen[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	size_t sentence_len = sizeof(sen) - 1;
+	size_t sentence_len = sizeof(sen);
 
-	write(1, sen, sentence_len);
+	write(2, sen, sentence_len);
 
 	return (1);
 }
