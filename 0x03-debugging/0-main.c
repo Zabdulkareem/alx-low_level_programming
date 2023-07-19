@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point
- *
  * Description: This function tests if argument passed is zero
  * Return: 0
  */
