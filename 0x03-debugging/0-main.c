@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * main - tests function that tests if integer is zero
- * Return - 0
+ * main - Entry point
+ *
+ * Description: This function tests if argument passed is zero
+ * Return: 0
  */
 int main(void)
 {
