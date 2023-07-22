@@ -2,9 +2,10 @@
 
 /**
  * print_diagonal - draws diagonal line
- * @c: number of times character is printed
+ * @n: number of times character is printed
  *
- * Description: This function outputs a diagonal line
+ * Description: This function outputs diagonal lines
+ * on to the std out based on the arguments passed.
  * Return: nothing is returned
  */
 void print_diagonal(int n)
