@@ -10,14 +10,10 @@
  */
 void print_line(int n)
 {
-	int repeat;	/* Num of times the char is repeated */
+	int repeat;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
-	{
-		for (repeat = 0; repeat <= n; repeat++)
-			_putchar('_');
-		_putchar('\n');
-	}
+	for (repeat = 0; repeat < n; repeat++)
+		_putchar('_');
+	_putchar('\n');
 }
+
