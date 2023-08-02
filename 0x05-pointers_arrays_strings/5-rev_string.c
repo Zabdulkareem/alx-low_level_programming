@@ -8,22 +8,19 @@
  */
 void rev_string(char *s)
 {
-	int i;
-	int len = 0;
+	int i = 0;
+	int len;
 	char temp;
 
 	/* First Get length of string */
-	while (s[len] != '\0')
-	{
-		len++;
-	}
+	for (len = 0; s[len] != '\0'; len++)
+		;
 
 	/* Next swap chars from both ends until reaching the middle */
-	for (i = 0; i < (len / 2); i++)
+	for (len = len - 1; i < len; len--, i++)
 	{
-		temp = s[i];
-		s[i] = s[len - 1 - i];
-		s[len - 1 - i] = temp;
+		temp = s[len];
+		s[len] = s[i];
+		s[i] = temp;
 	}
-	_putchar('\n');
 }
