@@ -22,7 +22,7 @@ void puts_half(char *str)
 	/* Find the start of index of second half of string */
 	if (len % 2 == 1)
 	{
-		start_index = (len - 1) / 2;	/* Adjusts start_index for odd len */
+		start_index = ((len - 1) / 2) + 1;	/* Adjusts start_index for odd len */
 	}
 	else
 	{
