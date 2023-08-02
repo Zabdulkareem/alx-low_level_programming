@@ -11,7 +11,7 @@ void _print_rev_recursion(char *s)
 	if (*s)
 	{
 		/* Recursive call of next char in string */
-		_print_rev_recursion(s +1);
+		_print_rev_recursion(s + 1);
 
 		/* prints the chars after all the recursive calls */
 		_putchar(*s);
