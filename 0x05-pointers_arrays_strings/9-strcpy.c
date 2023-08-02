@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * _strcpy: Function copies a string from src to dest
+ * _strcpy - copies a string from src to dest including the
+ * null terminator
  * @dest: destination to be copied to
  * @src: source string is copied from
+ *
+ * Description: This function copies a string from one source to another
  *
  * Return: Pointer to dest
  */
@@ -22,5 +25,5 @@ char *_strcpy(char *dest, char *src)
 	/* Copy the null terminator */
 	*dest = '\0';
 
-	return dest_start;	/* Returns start address of dest buffer */
+	return (dest_start);	/* Returns start address of dest buffer */
 }
